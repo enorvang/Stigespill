@@ -12,7 +12,7 @@ public class Terning {
     }
 
     public int trill(){
-        return (int) Math.floor(Math.random()*antallOyne);
+        return (int) Math.ceil(Math.random()*antallOyne);
     }
 
 }

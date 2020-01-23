@@ -22,7 +22,7 @@ public class Brett {
         }
     }
 
-    public int getAntallRuter(){
+    public int getAntallRuter(){ //Kun for testing
         return antallRuter;
     }
 }

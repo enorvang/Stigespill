@@ -14,5 +14,8 @@ public class Rute {
         this.mapping = mapping;
     }
 
+    public int getNummer(){
+        return nummer;
+    }
 
 }

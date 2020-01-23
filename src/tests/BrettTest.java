@@ -18,6 +18,6 @@ public class BrettTest {
     public void sjekkOmBrettHarHundreFelter(){
         assertEquals(100, brett.getAntallRuter());
     }
-    
+
 
 }

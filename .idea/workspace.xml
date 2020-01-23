@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05309f82-7083-4c9f-a4bb-c7886546712a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/BrettTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stigespill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stigespill.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stigespill/entities/Brett.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stigespill/entities/Brett.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stigespill/entities/Rute$Rutetype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stigespill/entities/Rute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stigespill/entities/Rute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stigespill/entities/Stigespill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stigespill/entities/Stigespill.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Stigespill/entities/Terning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stigespill/entities/Terning.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Brett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Brett.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Rute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Rute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Spiller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Stigespill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Stigespill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Terning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/BrettTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +24,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Spiller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Brikke.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +68,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Rute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,21 +81,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="256">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
-                <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
@@ -71,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/entities/Stigespill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="360">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -98,12 +133,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/entities/Brikke.java" />
         <option value="$PROJECT_DIR$/src/entities/Rutetype.java" />
-        <option value="$PROJECT_DIR$/src/entities/Rute.java" />
-        <option value="$PROJECT_DIR$/src/entities/Terning.java" />
-        <option value="$PROJECT_DIR$/src/entities/Stigespill.java" />
         <option value="$PROJECT_DIR$/src/tests/brettTest.java" />
-        <option value="$PROJECT_DIR$/src/entities/Brett.java" />
         <option value="$PROJECT_DIR$/src/tests/BrettTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Brett.java" />
+        <option value="$PROJECT_DIR$/src/tests/TerningTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Terning.java" />
+        <option value="$PROJECT_DIR$/src/entities/Spiller.java" />
+        <option value="$PROJECT_DIR$/src/entities/Rute.java" />
+        <option value="$PROJECT_DIR$/src/entities/Stigespill.java" />
       </list>
     </option>
   </component>
@@ -155,7 +192,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579807239090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579810177849" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -173,7 +210,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BrettTest">
+  <component name="RunManager" selected="Application.Terning">
+    <configuration name="Terning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entities.Terning" />
+      <module name="Stigespill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BrettTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stigespill" />
       <extension name="coverage">
@@ -207,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Terning" />
         <item itemvalue="JUnit.BrettTest" />
         <item itemvalue="JUnit.BrettTest.sjekkOmBrettHarHundreFelter" />
       </list>
@@ -253,12 +304,15 @@
     <history-entry file="BrettTest - 2020.01.23 at 20h 19m 26s.xml">
       <configuration name="BrettTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BrettTest - 2020.01.23 at 20h 42m 12s.xml">
+      <configuration name="BrettTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -269,7 +323,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -299,30 +353,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/TerningTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Spiller.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Stigespill.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="256">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,33 +414,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Rute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Spiller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Stigespill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
