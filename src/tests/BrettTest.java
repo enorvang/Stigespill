@@ -8,10 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BrettTest {
     private Brett brett;
+    private final int ANTALL_RUTER = 100;
 
     @BeforeEach
     public void setup(){
-        brett = new Brett();
+        brett = new Brett(ANTALL_RUTER);
     }
 
     @Test

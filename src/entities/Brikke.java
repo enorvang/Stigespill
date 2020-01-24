@@ -16,4 +16,10 @@ public class Brikke {
     public void setRute(Rute rute) {
         this.rute = rute;
     }
+
+    public String getFarge(){
+        return this.farge;
+    }
+
+
 }
