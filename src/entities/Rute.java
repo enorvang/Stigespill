@@ -15,7 +15,11 @@ public class Rute {
     }
 
     public int getNummer(){
-        return nummer;
+        return this.nummer;
+    }
+
+    public int getMapping(){
+        return this.mapping;
     }
 
 

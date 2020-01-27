@@ -6,8 +6,8 @@ public class Stigespill {
     private Spiller[] spillere;
     private Terning terning;
 
-    public Stigespill(int antallSpillere) {
-        brett = new Brett(antallSpillere);
+    public Stigespill( int antallSpillere) {
+        brett = new Brett(); //standard brett med 100 ruter
         spillere = new Spiller[antallSpillere];
         terning = new Terning(); //standard terning med 6 øyne
     }
