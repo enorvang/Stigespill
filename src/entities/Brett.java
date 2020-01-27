@@ -37,7 +37,7 @@ public class Brett {
         ruteKart.put(60, new Rute(60, 85));
     }
 
-    public HashMap<Integer, Rute> getRuteKart(){
-        return (HashMap<Integer, Rute>) this.ruteKart;
+    public Map<Integer, Rute> getRuteKart(){
+        return this.ruteKart;
     }
 }

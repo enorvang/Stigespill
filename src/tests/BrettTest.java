@@ -4,14 +4,13 @@ import entities.Brett;
 import entities.Rute;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.HashMap;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BrettTest {
     private Brett brett;
-    private HashMap<Integer, Rute> ruteKart;
+    private Map<Integer, Rute> ruteKart;
 
     @BeforeEach
     public void setup(){
