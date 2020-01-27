@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BrettTest {
     private Brett brett;
-    private final int ANTALL_RUTER = 100;
     private HashMap<Integer, Rute> ruteKart;
 
     @BeforeEach

@@ -19,6 +19,6 @@ public class Terning {
     public int getAntallOyne(){
         return antallOyne;
     }
-    
+
 
 }
