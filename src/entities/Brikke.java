@@ -3,10 +3,12 @@ package entities;
 public class Brikke {
     private String farge;
     private Rute rute;
+    private Brett brett;
 
-    public Brikke(String farge, Rute rute) {
+    public Brikke(String farge, Rute rute, Brett brett) {
         this.farge = farge;
         this.rute = rute;
+        this.brett = brett;
     }
 
     public Rute getRute() {
@@ -21,7 +23,12 @@ public class Brikke {
         return this.farge;
     }
 
-    public void flytt(int sum){
-
+    /**
+     * Flytter brikken et gitt antall ruter.
+     * @param sum
+     */
+    public void flytt(Integer sum){
+        Rute nyRute = brett.finnNyRute(getRute(), sum);
+        setRute(nyRute);
     }
 }

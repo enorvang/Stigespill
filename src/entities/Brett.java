@@ -21,6 +21,10 @@ public class Brett {
         }
     }
 
+    public Map<Integer, Rute> getRuteKart() {
+        return this.ruteKart;
+    }
+
 
     public void leggTilSlangerOgStiger() {
         //mapper ruter med slangehode
@@ -38,7 +42,10 @@ public class Brett {
         ruteKart.put(60, new Rute(60, 85));
     }
 
-    public Map<Integer, Rute> getRuteKart() {
-        return this.ruteKart;
+
+    public Rute finnNyRute(Rute rute, Integer sum) {
+        int pos = rute.getNummer();
+        int nyPos = pos + sum;
+        return ruteKart.get(nyPos);
     }
 }
