@@ -7,21 +7,21 @@ public class Brett {
     private final int ANTALL_RUTER_STIGESPILL = 100;
     private Map<Integer, Rute> ruteKart;
 
-    public Brett(){
+    public Brett() {
         ruteKart = new HashMap<>();
-        for(int i = 0; i < ANTALL_RUTER_STIGESPILL; i++){
-            ruteKart.put(i+1, new Rute(i+1));
+        for (int i = 0; i < ANTALL_RUTER_STIGESPILL; i++) {
+            ruteKart.put(i + 1, new Rute(i + 1));
         }
     }
 
-    public Brett(int antall){
+    public Brett(int antall) {
         ruteKart = new HashMap<>();
-        for(int i = 0; i < antall; i++){
-            ruteKart.put(i+1, new Rute(i+1));
+        for (int i = 0; i < antall; i++) {
+            ruteKart.put(i + 1, new Rute(i + 1));
         }
     }
 
-    public void leggTilSlangerOgStiger(){
+    public void leggTilSlangerOgStiger() {
         //mapper ruter med slangehode
         ruteKart.put(25, new Rute(25, 2));
         ruteKart.put(52, new Rute(52, 42));
@@ -37,7 +37,7 @@ public class Brett {
         ruteKart.put(60, new Rute(60, 85));
     }
 
-    public Map<Integer, Rute> getRuteKart(){
+    public Map<Integer, Rute> getRuteKart() {
         return this.ruteKart;
     }
 }

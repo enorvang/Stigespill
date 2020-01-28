@@ -4,7 +4,7 @@ public class Brikke {
     private String farge;
     private Rute rute;
 
-    public Brikke(String farge, Rute rute){
+    public Brikke(String farge, Rute rute) {
         this.farge = farge;
         this.rute = rute;
     }
@@ -17,7 +17,7 @@ public class Brikke {
         this.rute = rute;
     }
 
-    public String getFarge(){
+    public String getFarge() {
         return this.farge;
     }
 
