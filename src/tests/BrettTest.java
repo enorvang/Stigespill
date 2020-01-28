@@ -19,8 +19,7 @@ public class BrettTest {
     public void setup() {
         brett = new Brett();
 
-        //slangehode på 25->2, 52-42, 70->55, 95->72, 99->54
-        //stige på 6->25, 11->40, 17->69, 46->90, 60->85
+
         brett.leggTilSlangerOgStiger();
 
         ruteKart = brett.getRuteKart();
@@ -35,6 +34,7 @@ public class BrettTest {
 
     @Test
     public void sjekkOmBrettHarSlanger() {
+        //slangehode på 25->2, 52-42, 70->55, 95->72, 99->54
         assertEquals(2, ruteKart.get(25).getMapping());
         assertEquals(42, ruteKart.get(52).getMapping());
         assertEquals(55, ruteKart.get(70).getMapping());
@@ -44,6 +44,7 @@ public class BrettTest {
 
     @Test
     public void sjekkOmBrettHarStiger() {
+        //stige på 6->25, 11->40, 17->69, 46->90, 60->85
         assertEquals(25, ruteKart.get(6).getMapping());
         assertEquals(40, ruteKart.get(11).getMapping());
         assertEquals(69, ruteKart.get(17).getMapping());
