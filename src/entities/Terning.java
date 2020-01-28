@@ -8,19 +8,16 @@ public class Terning {
         this.antallOyne = STANDARD_TERNING;
     }
 
-    //TODO
-    //Lage kopp til terning?
     public Terning(int antallOyne) {
         this.antallOyne = antallOyne;
     }
 
-    public int trill() {
-        return (int) Math.ceil(Math.random() * antallOyne);
-//        this.antallOyne = (int) Math.ceil(Math.random()*antallOyne);
-    }
-
     public int getAntallOyne() {
         return antallOyne;
+    }
+
+    public int trill() {
+        return (int) Math.ceil(Math.random() * antallOyne);
     }
 
 
