@@ -21,6 +21,7 @@ public class Brett {
         }
     }
 
+
     public void leggTilSlangerOgStiger() {
         //mapper ruter med slangehode
         ruteKart.put(25, new Rute(25, 2));

@@ -17,8 +17,8 @@ public class Spiller {
     }
 
 
-    public void spillTrekk() {
-        //TODO
-        //Må implementeres
+    public void spillTrekk(Terning terning) {
+        Integer sum = terning.trill();
+        brikke.flytt(sum);
     }
 }

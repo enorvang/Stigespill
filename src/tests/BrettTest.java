@@ -16,8 +16,11 @@ public class BrettTest {
     @BeforeEach
     public void setup() {
         brett = new Brett();
-        brett.leggTilSlangerOgStiger(); //slangehode på 25->2, 52-42, 70->55, 95->72, 99->54
+
+        //slangehode på 25->2, 52-42, 70->55, 95->72, 99->54
         //stige på 6->25, 11->40, 17->69, 46->90, 60->85
+        brett.leggTilSlangerOgStiger();
+
         ruteKart = brett.getRuteKart();
     }
 

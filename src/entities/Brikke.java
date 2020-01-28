@@ -21,5 +21,7 @@ public class Brikke {
         return this.farge;
     }
 
+    public void flytt(int sum){
 
+    }
 }
