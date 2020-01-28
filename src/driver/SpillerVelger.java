@@ -13,14 +13,12 @@ import java.util.List;
 public class SpillerVelger {
     private ArrayList<Spiller> spillere;
     private Stigespill spill;
-    private Brett brett;
     private final String[] ANTALL_MULIGE_SPILLERE = {"2", "3", "4"};
     private final ArrayList<String> MULIGE_FARGER = new ArrayList<>(Arrays.asList("Rosa", "Sort", "Gul", "Brun"));
 
-    public SpillerVelger(Stigespill spill, Brett brett) {
+    public SpillerVelger(Stigespill spill) {
         spillere = new ArrayList<>();
         this.spill = spill;
-        this.brett = brett;
     }
 
 
@@ -40,7 +38,7 @@ public class SpillerVelger {
             MULIGE_FARGER.remove(fargeValg);
 
             Spiller s = new Spiller(navn);
-            s.setBrikke(new Brikke(farge, brett));
+            s.setBrikke(new Brikke(farge, spill.getBrett()));
             spillere.add(s);
         }
 
