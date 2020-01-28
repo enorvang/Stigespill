@@ -25,6 +25,7 @@ public class SpillerVelger {
     public void velgSpillere() {
 
         JFrame frame = new JFrame("Velkommen til Stigespillet");
+        JOptionPane.showMessageDialog(frame, "Velkommen til Stigespillet");
         int valgtAntallSpillere = JOptionPane.showOptionDialog(frame, "Velg antall spillere", "Antall spillere",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, ANTALL_MULIGE_SPILLERE, ANTALL_MULIGE_SPILLERE[0]);
 
