@@ -46,13 +46,13 @@ public class Spiller {
                     + (brikke.getRute().getNummer()-sum) + " -> " + brikke.getRute().getNummer());
             if(brikke.getRute().harSlange()){
                 int nyPos = brikke.getRute().getMapping();
+                System.out.println("!!! TRAFF SLANGE !!! FLYTT " + brikke.getRute().getNummer() + " -> " + nyPos);
                 brikke.flyttTilNyPosisjon(nyPos);
-                System.out.println("!!! TRAFF SLANGE !!! FLYTT -> " + brikke.getRute().getNummer());
             }
             if(brikke.getRute().harStige()){
                 int nyPos = brikke.getRute().getMapping();
+                System.out.println("!!! TRAFF STIGE !!! FLYTT " + brikke.getRute().getNummer() + " -> " + nyPos);
                 brikke.flyttTilNyPosisjon(nyPos);
-                System.out.println("!!! TRAFF STIGE !!! FLYTT -> " + brikke.getRute().getNummer());
             }
             if (sum == 6) {
                 System.out.println("***Du fikk 6, nytt kast!***");

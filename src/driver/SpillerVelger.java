@@ -24,14 +24,15 @@ public class SpillerVelger {
 
     public void velgSpillere() {
 
-        int valgtAntallSpillere = JOptionPane.showOptionDialog(null, "Velg antall spillere", "Antall spillere",
+        JFrame frame = new JFrame();
+        int valgtAntallSpillere = JOptionPane.showOptionDialog(frame, "Velg antall spillere", "Antall spillere",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, ANTALL_MULIGE_SPILLERE, ANTALL_MULIGE_SPILLERE[0]);
 
         int antallSpillere = Integer.parseInt(ANTALL_MULIGE_SPILLERE[valgtAntallSpillere]);
 
         for (int i = 0; i < antallSpillere; i++) {
             String navn = JOptionPane.showInputDialog("Navn på spiller " + (i + 1) + ":");
-            int fargeValg = JOptionPane.showOptionDialog(null, "Velg farge på brikke", "Brikkevalg",
+            int fargeValg = JOptionPane.showOptionDialog(frame, "Velg farge på brikke", "Brikkevalg",
                     JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, MULIGE_FARGER.toArray(), MULIGE_FARGER.get(0));
 
             String farge = MULIGE_FARGER.get(fargeValg);
