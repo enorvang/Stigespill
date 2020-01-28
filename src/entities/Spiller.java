@@ -49,7 +49,7 @@ public class Spiller {
                 antallSeksere++;
                 if (antallSeksere == 3) {
                     brikke.flyttTilStart();
-                    System.out.println("Tre seksere på rad - " + navn + "flyttes til 1");
+                    System.out.println("Tre seksere på rad - " + navn + "flyttes til start");
                     break;
                 }
 

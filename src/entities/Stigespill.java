@@ -37,7 +37,7 @@ public class Stigespill {
         int rundeTeller = 1;
         System.out.println("Starter spill...");
 
-        while (noWinners()) {
+        while (ingenVinnere()) {
             System.out.println("----- Runde " + rundeTeller + " -----");
             spillRunde();
             rundeTeller++;
@@ -67,7 +67,7 @@ public class Stigespill {
         }
     }
 
-    private boolean noWinners() {
+    private boolean ingenVinnere() {
         return !spillere.stream().anyMatch(s -> s.getBrikke().getRute().getNummer() == 100);
     }
 }
