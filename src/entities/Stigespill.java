@@ -16,16 +16,30 @@ public class Stigespill {
      * Oppretter et nytt stigespill med et gitt antall spillere
      * @param spillere
      */
-    public Stigespill(ArrayList<Spiller> spillere) {
+    public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
-        this.spillere = spillere;
+        spillere = new ArrayList<>();
         terning = new Terning(); //standard terning med 6 øyne
     }
 
+    public List<Spiller> getSpillere(){
+        return (ArrayList<Spiller>) spillere;
+    }
+
+    public void setSpillere(ArrayList<Spiller> spillere){
+        this.spillere = spillere;
+    }
+
+    public Brett getBrett(){
+        return brett;
+    }
+
     public void spill() {
-        while(true){
+        System.out.println("Starter spill...");
+        for(int i = 0; i < 20; i++){
             spillRunde();
         }
+        System.out.println("Spill avsluttet...");
     }
 
     private void spillRunde() {

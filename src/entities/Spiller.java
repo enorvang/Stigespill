@@ -15,7 +15,7 @@ public class Spiller {
         this.navn = navn;
     }
 
-    private void setBrikke(Brikke brikke) {
+    public void setBrikke(Brikke brikke) {
         this.brikke = brikke;
     }
 
@@ -31,5 +31,6 @@ public class Spiller {
     public void spillTrekk(Terning terning) {
         Integer sum = terning.trill();
         brikke.flytt(sum);
+        System.out.println(navn + " trillet "+ sum + " flyttet til " + brikke.getRute().getNummer());
     }
 }

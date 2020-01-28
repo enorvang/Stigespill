@@ -10,8 +10,9 @@ public class Brikke {
 
     /**
      * Konstruktør for en brikke.
+     *
      * @param farge identifiserer brikken
-     * @param rute den ruten brikken står på
+     * @param rute  den ruten brikken står på
      * @param brett brettet brikken tilhører
      */
     public Brikke(String farge, Brett brett) {
@@ -34,10 +35,14 @@ public class Brikke {
 
     /**
      * Flytter brikken et gitt antall ruter.
+     *
      * @param sum
      */
-    public void flytt(Integer terningkast){
-        Rute nyRute = brett.finnNyRute(getRute(), terningkast);
-        setRute(nyRute);
+    public void flytt(Integer terningkast) {
+        if (rute.getNummer() + terningkast <= 100) {
+            Rute nyRute = brett.finnNyRute(getRute(), terningkast);
+            setRute(nyRute);
+        }
+
     }
 }
