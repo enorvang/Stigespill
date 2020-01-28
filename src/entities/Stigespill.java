@@ -3,6 +3,8 @@ package entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Thread.sleep;
+
 /**
  * @author Espen Norvang
  */
@@ -14,7 +16,7 @@ public class Stigespill {
 
     /**
      * Oppretter et nytt stigespill med et gitt antall spillere
-     * 
+     *
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
@@ -35,11 +37,21 @@ public class Stigespill {
     }
 
     public void spill() {
+        int rundeTeller = 1;
         System.out.println("Starter spill...");
-        for(int i = 0; i < 20; i++){
-            System.out.println("----- Runde " + i+1 + " -----");
+
+        while(noWinners()){
+            System.out.println("----- Runde " + rundeTeller + " -----");
             spillRunde();
+            rundeTeller++;
+            try{
+                sleep(3000);
+            }catch(InterruptedException e){
+                e.printStackTrace();
+            }
+
         }
+
         System.out.println("Spill avsluttet...");
     }
 
@@ -47,5 +59,9 @@ public class Stigespill {
         for (Spiller spiller : spillere) {
             spiller.spillTrekk(terning);
         }
+    }
+
+    private boolean noWinners(){
+        return !spillere.stream().anyMatch(s -> s.getBrikke().getRute().getNummer() == 100);
     }
 }
