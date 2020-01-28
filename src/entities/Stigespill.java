@@ -14,7 +14,7 @@ public class Stigespill {
 
     /**
      * Oppretter et nytt stigespill med et gitt antall spillere
-     * @param spillere
+     * 
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
@@ -37,6 +37,7 @@ public class Stigespill {
     public void spill() {
         System.out.println("Starter spill...");
         for(int i = 0; i < 20; i++){
+            System.out.println("----- Runde " + i+1 + " -----");
             spillRunde();
         }
         System.out.println("Spill avsluttet...");
