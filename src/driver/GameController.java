@@ -1,13 +1,8 @@
 package driver;
 
 import entities.Brett;
-import entities.Brikke;
-import entities.Spiller;
 import entities.Stigespill;
 
-import javax.swing.*;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class GameController {
 
