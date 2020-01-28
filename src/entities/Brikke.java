@@ -14,9 +14,9 @@ public class Brikke {
      * @param rute den ruten brikken står på
      * @param brett brettet brikken tilhører
      */
-    public Brikke(String farge, Rute rute, Brett brett) {
+    public Brikke(String farge, Brett brett) {
         this.farge = farge;
-        this.rute = rute;
+        this.rute = brett.getRuteKart().get(1);
         this.brett = brett;
     }
 

@@ -32,8 +32,5 @@ public class Stigespill {
         for (Spiller spiller : spillere) {
             spiller.spillTrekk(terning);
         }
-
     }
-
-
 }

@@ -1,6 +1,7 @@
 package tests;
 
 import entities.Brett;
+import entities.Brikke;
 import entities.Rute;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BrettTest {
     private Brett brett;
     private Map<Integer, Rute> ruteKart;
+    Brikke brikke;
 
     @BeforeEach
     public void setup() {
@@ -23,6 +25,7 @@ public class BrettTest {
 
         ruteKart = brett.getRuteKart();
 
+        brikke = new Brikke("Sort", brett);
     }
 
     @Test
@@ -46,5 +49,16 @@ public class BrettTest {
         assertEquals(69, ruteKart.get(17).getMapping());
         assertEquals(90, ruteKart.get(46).getMapping());
         assertEquals(85, ruteKart.get(60).getMapping());
+    }
+
+    @Test
+    public void sjekkOmBrikkeInitialiseresTilPosisjon1(){
+        assertEquals(1, brikke.getRute().getNummer());
+    }
+
+    @Test
+    public void sjekkOmBrikkeFlyttesSeksRuter(){
+        brikke.flytt(6);
+        assertEquals(7, brikke.getRute().getNummer());
     }
 }
