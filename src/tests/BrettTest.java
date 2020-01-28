@@ -22,6 +22,7 @@ public class BrettTest {
         brett.leggTilSlangerOgStiger();
 
         ruteKart = brett.getRuteKart();
+
     }
 
     @Test

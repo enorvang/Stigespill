@@ -3,20 +3,27 @@ package entities;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Espen Norvang
+ */
 public class Stigespill {
 
     private Brett brett;
     private List<Spiller> spillere;
     private Terning terning;
 
-    public Stigespill() {
+    /**
+     * Oppretter et nytt stigespill med et gitt antall spillere
+     * @param spillere
+     */
+    public Stigespill(ArrayList<Spiller> spillere) {
         brett = new Brett(); //standard brett med 100 ruter
-        spillere = new ArrayList<>();
+        this.spillere = spillere;
         terning = new Terning(); //standard terning med 6 øyne
     }
 
     public void spill() {
-        while (true) {
+        while(true){
             spillRunde();
         }
     }
@@ -25,6 +32,8 @@ public class Stigespill {
         for (Spiller spiller : spillere) {
             spiller.spillTrekk(terning);
         }
+
     }
+
 
 }
