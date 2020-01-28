@@ -57,6 +57,7 @@ public class Stigespill {
         System.out.println("***** " + vinner + " vant. Gratulerer! *****");
 
         System.out.println("Spill avsluttet...");
+        System.exit(1);
     }
 
     /**
