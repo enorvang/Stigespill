@@ -2,6 +2,7 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static java.lang.Thread.sleep;
 
@@ -16,7 +17,6 @@ public class Stigespill {
 
     /**
      * Oppretter et nytt stigespill med et gitt antall spillere
-     *
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
@@ -25,11 +25,11 @@ public class Stigespill {
     }
 
 
-    public void setSpillere(ArrayList<Spiller> spillere){
+    public void setSpillere(ArrayList<Spiller> spillere) {
         this.spillere = spillere;
     }
 
-    public Brett getBrett(){
+    public Brett getBrett() {
         return brett;
     }
 
@@ -37,17 +37,23 @@ public class Stigespill {
         int rundeTeller = 1;
         System.out.println("Starter spill...");
 
-        while(noWinners()){
+        while (noWinners()) {
             System.out.println("----- Runde " + rundeTeller + " -----");
             spillRunde();
             rundeTeller++;
-            try{
-                sleep(1000);
-            }catch(InterruptedException e){
+            try {
+                sleep(500);
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
         }
+
+        String vinner = spillere.stream()
+                .filter(s -> s.getBrikke().getRute().getNummer() == 100)
+                .map(s -> s.getNavn())
+                .collect(Collectors.joining());
+        System.out.println("***** " + vinner + " vant. Gratulerer! *****");
 
         System.out.println("Spill avsluttet...");
     }
@@ -61,7 +67,7 @@ public class Stigespill {
         }
     }
 
-    private boolean noWinners(){
+    private boolean noWinners() {
         return !spillere.stream().anyMatch(s -> s.getBrikke().getRute().getNummer() == 100);
     }
 }

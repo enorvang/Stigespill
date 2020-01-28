@@ -17,6 +17,10 @@ public class Spiller {
         this.navn = navn;
     }
 
+    public String getNavn(){
+        return navn;
+    }
+
     public void setBrikke(Brikke brikke) {
         this.brikke = brikke;
     }
@@ -38,7 +42,8 @@ public class Spiller {
         do {
             sum = terning.trill();
             brikke.flytt(sum);
-            System.out.println(navn + " trillet " + sum + " flyttet til " + brikke.getRute().getNummer());
+            System.out.println("["+navn.toUpperCase() + " trillet " + sum + " | FLYTT "
+                    + (brikke.getRute().getNummer()-sum) + " -> " + brikke.getRute().getNummer());
             if (sum == 6) {
                 System.out.println("***Du fikk 6, nytt kast!***");
                 antallSeksere++;
