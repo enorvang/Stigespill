@@ -36,8 +36,8 @@ public class Brikke {
      * Flytter brikken et gitt antall ruter.
      * @param sum
      */
-    public void flytt(Integer sum){
-        Rute nyRute = brett.finnNyRute(getRute(), sum);
+    public void flytt(Integer terningkast){
+        Rute nyRute = brett.finnNyRute(getRute(), terningkast);
         setRute(nyRute);
     }
 }

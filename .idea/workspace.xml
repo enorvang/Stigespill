@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05309f82-7083-4c9f-a4bb-c7886546712a" name="Default Changelist" comment="fikset formatering">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Brett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Brett.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Brikke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Brikke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Stigespill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Stigespill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/BrettTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Brikke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="307">
+              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding>
                 <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="307">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
@@ -88,13 +86,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="749">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1543#1544#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/entities/Rute.java" />
         <option value="$PROJECT_DIR$/src/entities/Terning.java" />
         <option value="$PROJECT_DIR$/src/entities/Spiller.java" />
-        <option value="$PROJECT_DIR$/src/entities/Brett.java" />
         <option value="$PROJECT_DIR$/src/entities/Stigespill.java" />
-        <option value="$PROJECT_DIR$/src/entities/Brikke.java" />
         <option value="$PROJECT_DIR$/src/tests/BrettTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Brikke.java" />
+        <option value="$PROJECT_DIR$/src/entities/Brett.java" />
       </list>
     </option>
   </component>
@@ -195,7 +195,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580204129384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580204277118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -350,18 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrettTest_sjekkOmBrettHarSlanger - 2020.01.27 at 13h 17m 08s.xml">
-      <configuration name="BrettTest.sjekkOmBrettHarSlanger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrettTest_sjekkOmBrettHarStiger - 2020.01.27 at 13h 18m 21s.xml">
-      <configuration name="BrettTest.sjekkOmBrettHarStiger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrettTest - 2020.01.27 at 13h 19m 00s.xml">
-      <configuration name="BrettTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrettTest - 2020.01.27 at 13h 27m 16s.xml">
-      <configuration name="BrettTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BrettTest - 2020.01.27 at 13h 49m 47s.xml">
       <configuration name="BrettTest" configurationId="JUnit" />
     </history-entry>
@@ -380,12 +368,24 @@
     <history-entry file="BrettTest - 2020.01.27 at 14h 17m 33s.xml">
       <configuration name="BrettTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 13s.xml">
+      <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 20s.xml">
+      <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 27s.xml">
+      <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrettTest_sjekkOmBrikkeFlyttesSeksRuter - 2020.01.28 at 10h 34m 24s.xml">
+      <configuration name="BrettTest.sjekkOmBrikkeFlyttesSeksRuter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +395,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25637394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25637394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,10 +474,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Brikke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="307">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding>
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
@@ -491,22 +503,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="307">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
