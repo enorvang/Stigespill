@@ -6,7 +6,7 @@ public class Rute {
 
     public Rute(int nummer) {
         this.nummer = nummer;
-        mapping = nummer;
+        this.mapping = nummer;
     }
 
     public Rute(int nummer, int mapping) {
@@ -22,5 +22,11 @@ public class Rute {
         return this.mapping;
     }
 
+    public boolean harStige(){
+        return getMapping() > getNummer();
+    }
 
+    public boolean harSlange(){
+        return getMapping() < getNummer();
+    }
 }

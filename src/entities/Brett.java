@@ -12,6 +12,7 @@ public class Brett {
         for (int i = 0; i < ANTALL_RUTER_STIGESPILL; i++) {
             ruteKart.put(i + 1, new Rute(i + 1));
         }
+
     }
 
     public Brett(int antall) {
@@ -48,4 +49,6 @@ public class Brett {
         int nyPos = pos + terningkast;
         return ruteKart.get(nyPos);
     }
+
+
 }

@@ -62,4 +62,10 @@ public class BrettTest {
         brikke.flytt(6);
         assertEquals(7, brikke.getRute().getNummer());
     }
+
+    @Test
+    public void sjekkOmBrikkeKanFlyttesTilBestemtRute(){
+        brikke.flyttTilNyPosisjon(50);
+        assertEquals(50, brikke.getRute().getNummer());
+    }
 }

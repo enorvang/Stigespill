@@ -43,11 +43,18 @@ public class Brikke {
             Rute nyRute = brett.finnNyRute(getRute(), terningkast);
             setRute(nyRute);
         }
-
     }
 
+    /**
+     * Flytter ruten direkte til start
+     */
     public void flyttTilStart() {
         Rute nyRute = brett.getRuteKart().get(1);
+        setRute(nyRute);
+    }
+
+    public void flyttTilNyPosisjon(int pos){
+        Rute nyRute = brett.getRuteKart().get(pos);
         setRute(nyRute);
     }
 }

@@ -20,6 +20,7 @@ public class Stigespill {
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
+        brett.leggTilSlangerOgStiger();
         spillere = new ArrayList<>();
         terning = new Terning(); //standard terning med 6 øyne
     }

@@ -16,19 +16,6 @@ public class GameController {
         Brett brett = spill.getBrett();
         ArrayList<Spiller> spillere = new ArrayList<>();
 
-//        Spiller s1 = new Spiller("Espen");
-//        Spiller s2 = new Spiller("Niklas");
-//        Spiller s3 = new Spiller("Christian");
-//        Spiller s4 = new Spiller("Morten");
-//        s1.setBrikke(new Brikke("Sort", brett));
-//        s2.setBrikke(new Brikke("Gul", brett));
-//        s3.setBrikke(new Brikke("Rosa", brett));
-//        s4.setBrikke(new Brikke("Brun", brett));
-//        spillere.add(s1);
-//        spillere.add(s2);
-//        spillere.add(s3);
-//        spillere.add(s4);
-
         String[] muligeAntallSpillere = {"2", "3", "4"};
         ArrayList<String> muligeFarger = new ArrayList<>(Arrays.asList("Rosa", "Sort", "Gul", "Brun"));
 
