@@ -24,9 +24,6 @@ public class Stigespill {
         terning = new Terning(); //standard terning med 6 øyne
     }
 
-    public List<Spiller> getSpillere(){
-        return (ArrayList<Spiller>) spillere;
-    }
 
     public void setSpillere(ArrayList<Spiller> spillere){
         this.spillere = spillere;
@@ -45,7 +42,7 @@ public class Stigespill {
             spillRunde();
             rundeTeller++;
             try{
-                sleep(3000);
+                sleep(1000);
             }catch(InterruptedException e){
                 e.printStackTrace();
             }
@@ -55,6 +52,9 @@ public class Stigespill {
         System.out.println("Spill avsluttet...");
     }
 
+    /**
+     * Spiller en runde for hver spiller
+     */
     private void spillRunde() {
         for (Spiller spiller : spillere) {
             spiller.spillTrekk(terning);
