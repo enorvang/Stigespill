@@ -7,6 +7,9 @@ public class Terning {
     public Terning(){
         this.antallOyne = STANDARD_TERNING;
     }
+
+    //TODO
+    //Lage kopp til terning?
     public Terning(int antallOyne){
         this.antallOyne = antallOyne;
     }
