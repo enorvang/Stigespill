@@ -15,13 +15,6 @@ public class Brett {
 
     }
 
-    public Brett(int antall) {
-        ruteKart = new HashMap<>();
-        for (int i = 0; i < antall; i++) {
-            ruteKart.put(i + 1, new Rute(i + 1));
-        }
-    }
-
     public Map<Integer, Rute> getRuteKart() {
         return this.ruteKart;
     }

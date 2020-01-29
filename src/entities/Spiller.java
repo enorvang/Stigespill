@@ -42,7 +42,7 @@ public class Spiller {
         do {
             sum = terning.trill();
             brikke.flytt(sum);
-            System.out.println("["+navn.toUpperCase() + " trillet " + sum + " | FLYTT "
+            System.out.println("["+navn.toUpperCase() + "] trillet " + sum + " | FLYTT "
                     + (brikke.getRute().getNummer()-sum) + " -> " + brikke.getRute().getNummer());
             if(brikke.getRute().harSlange()){
                 int nyPos = brikke.getRute().getMapping();
