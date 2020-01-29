@@ -1,6 +1,5 @@
 package driver;
 
-import entities.Brett;
 import entities.Brikke;
 import entities.Spiller;
 import entities.Stigespill;
@@ -8,8 +7,10 @@ import entities.Stigespill;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
+/**
+ * @author Espen Norvang & Morten Sund
+ */
 public class SpillerVelger {
     private ArrayList<Spiller> spillere;
     private Stigespill spill;

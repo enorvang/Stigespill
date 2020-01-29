@@ -1,5 +1,8 @@
 package entities;
 
+/**
+ * @author Espen Norvang & Morten Sund
+ */
 public class Rute {
     private int nummer;
     private int mapping;

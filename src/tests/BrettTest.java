@@ -19,7 +19,6 @@ public class BrettTest {
     public void setup() {
         brett = new Brett();
 
-
         brett.leggTilSlangerOgStiger();
 
         ruteKart = brett.getRuteKart();

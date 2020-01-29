@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * @author Espen Norvang
+ * @author Espen Norvang & Morten Sund
  */
 public class Spiller {
     private String navn;

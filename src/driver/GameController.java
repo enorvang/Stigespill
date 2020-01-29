@@ -3,7 +3,9 @@ package driver;
 import entities.Brett;
 import entities.Stigespill;
 
-
+/**
+ * @author Espen Norvang & Morten Sund
+ */
 public class GameController {
 
     public static void main(String[] args) {

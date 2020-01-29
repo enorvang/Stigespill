@@ -3,6 +3,9 @@ package entities;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Espen Norvang & Morten Sund
+ */
 public class Brett {
     private final int ANTALL_RUTER_STIGESPILL = 100;
     private Map<Integer, Rute> ruteKart;
