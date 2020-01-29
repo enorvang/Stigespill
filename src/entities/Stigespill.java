@@ -14,6 +14,7 @@ public class Stigespill {
     private Brett brett;
     private List<Spiller> spillere;
     private Terning terning;
+    private boolean spillVunnet;
 
     /**
      * Oppretter et nytt stigespill med et gitt antall spillere
@@ -23,6 +24,7 @@ public class Stigespill {
         brett.leggTilSlangerOgStiger();
         spillere = new ArrayList<>();
         terning = new Terning(); //standard terning med 6 øyne
+        spillVunnet = false;
     }
 
 
@@ -34,11 +36,14 @@ public class Stigespill {
         return brett;
     }
 
+    /**
+     * Kjører spillet helt til en spiller havner på rute 100 og vinner spillet
+     */
     public void spill() {
         int rundeTeller = 1;
         System.out.println("Starter spill...");
 
-        while (ingenVinnere()) {
+        while (!spillVunnet) {
             System.out.println("----- Runde " + rundeTeller + " -----");
             spillRunde();
             rundeTeller++;
@@ -66,10 +71,9 @@ public class Stigespill {
     private void spillRunde() {
         for (Spiller spiller : spillere) {
             spiller.spillTrekk(terning);
+            if(spiller.getBrikke().getRute().getNummer()==100){
+                spillVunnet=true;
+            }
         }
-    }
-
-    private boolean ingenVinnere() {
-        return !spillere.stream().anyMatch(s -> s.getBrikke().getRute().getNummer() == 100);
     }
 }

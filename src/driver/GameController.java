@@ -1,6 +1,5 @@
 package driver;
 
-import entities.Brett;
 import entities.Stigespill;
 
 /**
