@@ -36,9 +36,9 @@ public class Brikke {
     /**
      * Flytter brikken et gitt antall ruter.
      *
-     * @param terningkast
+     * @param terningkast antall ruter som skal flyttes
      */
-    public void flytt(Integer terningkast) {
+    public void flytt(int terningkast) {
         if (rute.getNummer() + terningkast <= 100) {
             Rute nyRute = brett.finnNyRute(getRute(), terningkast);
             setRute(nyRute);

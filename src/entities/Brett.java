@@ -40,7 +40,7 @@ public class Brett {
     }
 
 
-    public Rute finnNyRute(Rute rute, Integer terningkast) {
+    public Rute finnNyRute(Rute rute, int terningkast) {
         int pos = rute.getNummer();
         int nyPos = pos + terningkast;
         return ruteKart.get(nyPos);

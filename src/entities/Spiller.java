@@ -37,8 +37,7 @@ public class Spiller {
      */
     public void spillTrekk(Terning terning) {
         int antallSeksere = 0;
-        Integer sum = 0;
-
+        int sum;
         do {
             sum = terning.trill();
             brikke.flytt(sum);
@@ -59,7 +58,7 @@ public class Spiller {
                 antallSeksere++;
                 if (antallSeksere == 3) {
                     brikke.flyttTilStart();
-                    System.out.println("Tre seksere på rad - " + navn + "flyttes til start");
+                    System.out.println("Tre seksere på rad - " + navn + " flyttes til start");
                     break;
                 }
 
