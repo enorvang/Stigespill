@@ -17,7 +17,7 @@ public class Stigespill {
     private boolean spillVunnet;
 
     /**
-     * Oppretter et nytt stigespill med et gitt antall spillere
+     * Oppretter et nytt stigespill.
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
@@ -54,10 +54,7 @@ public class Stigespill {
 
         }
 
-        String vinner = spillere.stream()
-                .filter(s -> s.getBrikke().getRute().getNummer() == 100)
-                .map(s -> s.getNavn())
-                .collect(Collectors.joining());
+        String vinner = finnVinner();
         System.out.println("***** " + vinner + " vant. Gratulerer! *****");
 
         System.out.println("Spill avsluttet...");
@@ -74,5 +71,16 @@ public class Stigespill {
                 spillVunnet=true;
             }
         }
+    }
+
+    /**
+     * Metode for å finne ut hvilken spiller som vant spillet.
+     * @return String navnet på spilleren
+     */
+    private String finnVinner(){
+        return spillere.stream()
+                .filter(s -> s.getBrikke().getRute().getNummer() == 100)
+                .map(s -> s.getNavn())
+                .collect(Collectors.joining());
     }
 }

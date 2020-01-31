@@ -17,12 +17,19 @@ public class SpillerVelger {
     private final String[] ANTALL_MULIGE_SPILLERE = {"2", "3", "4"};
     private final ArrayList<String> MULIGE_FARGER = new ArrayList<>(Arrays.asList("Rosa", "Sort", "Gul", "Hvit"));
 
+
+    /**
+     * Konstruktør som oppretter en ny SpillerVelger
+     * @param spill spillet som skal spilles.
+     */
     public SpillerVelger(Stigespill spill) {
         spillere = new ArrayList<>();
         this.spill = spill;
     }
 
-
+    /**
+     * Metode for å velge antall spillere, få navn på spillere og farge på brikke.
+     */
     public void velgSpillere() {
 
         JFrame frame = new JFrame("Velkommen til Stigespillet");

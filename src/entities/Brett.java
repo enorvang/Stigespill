@@ -10,6 +10,9 @@ public class Brett {
     private final int ANTALL_RUTER_STIGESPILL = 100;
     private Map<Integer, Rute> ruteKart;
 
+    /**
+     * Konstruktør som oppretter et brett med 100 ruter og legger til slanger og stiger.
+     */
     public Brett() {
         ruteKart = new HashMap<>();
         for (int i = 0; i < ANTALL_RUTER_STIGESPILL; i++) {
@@ -24,7 +27,10 @@ public class Brett {
     }
 
 
-    public void leggTilSlangerOgStiger() {
+    /**
+     * Metode for å legge til slanger og stiger på gitte posisjoner
+     */
+    private void leggTilSlangerOgStiger() {
         //mapper ruter med slangehode
         ruteKart.put(25, new Rute(25, 2));
         ruteKart.put(52, new Rute(52, 42));
@@ -41,6 +47,12 @@ public class Brett {
     }
 
 
+    /**
+     * Metode som finner en Rute for en brikke
+     * @param rute Nåværende Rute for brikke
+     * @param terningkast Antall øyne på terningen
+     * @return ny Rute
+     */
     public Rute finnNyRute(Rute rute, int terningkast) {
         int pos = rute.getNummer();
         int nyPos = pos + terningkast;

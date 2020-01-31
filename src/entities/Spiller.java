@@ -33,7 +33,7 @@ public class Spiller {
 
 
     /**
-     * Spiller et trekk for spilleren
+     * Spiller et trekk for spilleren, etter reglene for stigespillet.
      *
      * @param terning objekt som bestemmer hvor langt spillerens brikke skal flyttes
      */
@@ -50,7 +50,7 @@ public class Spiller {
             brikke.flytt(sum);
             System.out.println("[" + navn.toUpperCase() + "] trillet " + sum + " | FLYTT "
                     + (brikke.getRute().getNummer() - sum) + " -> " + brikke.getRute().getNummer());
-            
+
             if (brikke.getRute().harSlange()) {
                 int nyPos = brikke.getRute().getMapping();
                 System.out.println("!!! TRAFF SLANGE !!! FLYTT " + brikke.getRute().getNummer() + " -> " + nyPos);
