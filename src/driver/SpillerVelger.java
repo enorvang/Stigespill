@@ -15,7 +15,7 @@ public class SpillerVelger {
     private ArrayList<Spiller> spillere;
     private Stigespill spill;
     private final String[] ANTALL_MULIGE_SPILLERE = {"2", "3", "4"};
-    private final ArrayList<String> MULIGE_FARGER = new ArrayList<>(Arrays.asList("Rosa", "Sort", "Gul", "Brun"));
+    private final ArrayList<String> MULIGE_FARGER = new ArrayList<>(Arrays.asList("Rosa", "Sort", "Gul", "Hvit"));
 
     public SpillerVelger(Stigespill spill) {
         spillere = new ArrayList<>();

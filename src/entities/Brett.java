@@ -15,6 +15,7 @@ public class Brett {
         for (int i = 0; i < ANTALL_RUTER_STIGESPILL; i++) {
             ruteKart.put(i + 1, new Rute(i + 1));
         }
+        leggTilSlangerOgStiger();
 
     }
 

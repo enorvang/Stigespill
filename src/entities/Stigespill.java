@@ -21,7 +21,6 @@ public class Stigespill {
      */
     public Stigespill() {
         brett = new Brett(); //standard brett med 100 ruter
-        brett.leggTilSlangerOgStiger();
         spillere = new ArrayList<>();
         terning = new Terning(); //standard terning med 6 øyne
         spillVunnet = false;
@@ -48,7 +47,7 @@ public class Stigespill {
             spillRunde();
             rundeTeller++;
             try {
-                sleep(500);
+                sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

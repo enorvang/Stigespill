@@ -29,9 +29,6 @@ public class Brikke {
         this.rute = rute;
     }
 
-    public String getFarge() {
-        return this.farge;
-    }
 
     /**
      * Flytter brikken et gitt antall ruter.
@@ -45,13 +42,6 @@ public class Brikke {
         }
     }
 
-    /**
-     * Flytter brikken direkte til start
-     */
-    public void flyttTilStart() {
-        Rute nyRute = brett.getRuteKart().get(1);
-        setRute(nyRute);
-    }
 
     /**
      * Flytter brikken til ny posisjon

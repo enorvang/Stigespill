@@ -6,6 +6,7 @@ package entities;
 public class Spiller {
     private String navn;
     private Brikke brikke;
+    private boolean flyttetTilStart;
 
 
     /**
@@ -15,9 +16,10 @@ public class Spiller {
      */
     public Spiller(String navn) {
         this.navn = navn;
+        this.flyttetTilStart = false;
     }
 
-    public String getNavn(){
+    public String getNavn() {
         return navn;
     }
 
@@ -40,15 +42,21 @@ public class Spiller {
         int sum;
         do {
             sum = terning.trill();
+            if (flyttetTilStart && sum != 6) {
+                System.out.println("[" + navn.toUpperCase() + "] trillet " + sum + " | Må trille 6 for å flytte brikke.");
+                break;
+            }
+
             brikke.flytt(sum);
-            System.out.println("["+navn.toUpperCase() + "] trillet " + sum + " | FLYTT "
-                    + (brikke.getRute().getNummer()-sum) + " -> " + brikke.getRute().getNummer());
-            if(brikke.getRute().harSlange()){
+            System.out.println("[" + navn.toUpperCase() + "] trillet " + sum + " | FLYTT "
+                    + (brikke.getRute().getNummer() - sum) + " -> " + brikke.getRute().getNummer());
+            
+            if (brikke.getRute().harSlange()) {
                 int nyPos = brikke.getRute().getMapping();
                 System.out.println("!!! TRAFF SLANGE !!! FLYTT " + brikke.getRute().getNummer() + " -> " + nyPos);
                 brikke.flyttTilNyPosisjon(nyPos);
             }
-            if(brikke.getRute().harStige()){
+            if (brikke.getRute().harStige()) {
                 int nyPos = brikke.getRute().getMapping();
                 System.out.println("!!! TRAFF STIGE !!! FLYTT " + brikke.getRute().getNummer() + " -> " + nyPos);
                 brikke.flyttTilNyPosisjon(nyPos);
@@ -57,7 +65,7 @@ public class Spiller {
                 System.out.println("***Du fikk 6, nytt kast!***");
                 antallSeksere++;
                 if (antallSeksere == 3) {
-                    brikke.flyttTilStart();
+                    brikke.flyttTilNyPosisjon(1);
                     System.out.println("Tre seksere på rad - " + navn + " flyttes til start");
                     break;
                 }
