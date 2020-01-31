@@ -50,18 +50,18 @@ public class BrettTest {
     }
 
     @Test
-    public void sjekkOmBrikkeInitialiseresTilPosisjon1(){
+    public void sjekkOmBrikkeInitialiseresTilPosisjon1() {
         assertEquals(1, brikke.getRute().getNummer());
     }
 
     @Test
-    public void sjekkOmBrikkeFlyttesSeksRuter(){
+    public void sjekkOmBrikkeFlyttesSeksRuter() {
         brikke.flytt(6);
         assertEquals(7, brikke.getRute().getNummer());
     }
 
     @Test
-    public void sjekkOmBrikkeKanFlyttesTilBestemtRute(){
+    public void sjekkOmBrikkeKanFlyttesTilBestemtRute() {
         brikke.flyttTilNyPosisjon(50);
         assertEquals(50, brikke.getRute().getNummer());
     }
