@@ -10,7 +10,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BrettTest {
+public class StigespillTest {
     private Brett brett;
     private Map<Integer, Rute> ruteKart;
     Brikke brikke;

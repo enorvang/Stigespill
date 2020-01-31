@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05309f82-7083-4c9f-a4bb-c7886546712a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/tests/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/BrettTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/StigespillTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,9 +14,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
+        <entry file="file://$PROJECT_DIR$/src/tests/StigespillTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
+            <state relative-caret-position="323">
               <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/driver/GameController.java" />
         <option value="$PROJECT_DIR$/src/driver/SpillKontroller.java" />
         <option value="$PROJECT_DIR$/src/tests/BrettTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/StigespillTest.java" />
       </list>
     </option>
   </component>
@@ -128,7 +129,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580475024385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580475077106" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../IntelliJ-Workspace/Skoleprosjekter/dat110-project1-startcode" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -146,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BrettTest">
+  <component name="RunManager" selected="JUnit.StigespillTest">
     <configuration name="SpillKontroller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.SpillKontroller" />
       <module name="Stigespill" />
@@ -160,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrettTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StigespillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stigespill" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +170,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BrettTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrettTest.sjekkOmBrikkeFlyttesSeksRuter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StigespillTest.sjekkOmBrikkeFlyttesSeksRuter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stigespill" />
       <extension name="coverage">
         <pattern>
@@ -184,14 +185,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BrettTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
       <option name="METHOD_NAME" value="sjekkOmBrikkeFlyttesSeksRuter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StigespillTest.sjekkOmBrikkeInitialiseresTilPosisjon1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stigespill" />
       <extension name="coverage">
         <pattern>
@@ -200,14 +201,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BrettTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
       <option name="METHOD_NAME" value="sjekkOmBrikkeInitialiseresTilPosisjon1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrettTest.sjekkOmBrikkeKanFlyttesTilBestemtRute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StigespillTest.sjekkOmBrikkeKanFlyttesTilBestemtRute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stigespill" />
       <extension name="coverage">
         <pattern>
@@ -216,7 +217,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BrettTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
       <option name="METHOD_NAME" value="sjekkOmBrikkeKanFlyttesTilBestemtRute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -225,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BrettTest" />
+        <item itemvalue="JUnit.StigespillTest" />
         <item itemvalue="Application.SpillKontroller" />
-        <item itemvalue="JUnit.BrettTest.sjekkOmBrikkeKanFlyttesTilBestemtRute" />
-        <item itemvalue="JUnit.BrettTest.sjekkOmBrikkeFlyttesSeksRuter" />
-        <item itemvalue="JUnit.BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" />
+        <item itemvalue="JUnit.StigespillTest.sjekkOmBrikkeKanFlyttesTilBestemtRute" />
+        <item itemvalue="JUnit.StigespillTest.sjekkOmBrikkeFlyttesSeksRuter" />
+        <item itemvalue="JUnit.StigespillTest.sjekkOmBrikkeInitialiseresTilPosisjon1" />
       </list>
     </recent_temporary>
   </component>
@@ -519,9 +520,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/BrettTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/StigespillTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
+        <state relative-caret-position="323">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
