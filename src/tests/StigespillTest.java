@@ -65,4 +65,11 @@ public class StigespillTest {
         brikke.flyttTilNyPosisjon(50);
         assertEquals(50, brikke.getRute().getNummer());
     }
+
+    @Test
+    public void sjekkOmNyRuteErFireLengerFrem(){
+        Rute rute = brett.getRuteKart().get(1); //startrute
+        Rute nyRute = brett.finnNyRute(rute, 4);
+        assertEquals(5, nyRute.getNummer());
+    }
 }
