@@ -3,7 +3,7 @@ package driver;
 import entities.Stigespill;
 
 /**
- * 
+ *
  * @author Espen Norvang & Morten Sund
  */
 public class SpillKontroller {
