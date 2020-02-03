@@ -12,10 +12,6 @@ public class Terning {
         this.antallOyne = antallOyne;
     }
 
-    public int getAntallOyne() {
-        return antallOyne;
-    }
-
     public int trill() {
         return (int) Math.ceil(Math.random() * antallOyne);
     }

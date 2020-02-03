@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="05309f82-7083-4c9f-a4bb-c7886546712a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Terning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/StigespillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/StigespillTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Spiller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#402#403#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
@@ -27,10 +29,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/StigespillTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="379">
+              <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="833">
               <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/entities/Rutetype.java" />
         <option value="$PROJECT_DIR$/src/tests/brettTest.java" />
         <option value="$PROJECT_DIR$/src/tests/TerningTest.java" />
-        <option value="$PROJECT_DIR$/src/entities/Terning.java" />
         <option value="$PROJECT_DIR$/src/gui/Board.java" />
         <option value="$PROJECT_DIR$/src/entities/Farge.java" />
         <option value="$PROJECT_DIR$/src/testpakke/slangeRute.java" />
@@ -88,8 +106,9 @@
         <option value="$PROJECT_DIR$/src/driver/GameController.java" />
         <option value="$PROJECT_DIR$/src/driver/SpillKontroller.java" />
         <option value="$PROJECT_DIR$/src/tests/BrettTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/StigespillTest.java" />
         <option value="$PROJECT_DIR$/src/entities/Spiller.java" />
+        <option value="$PROJECT_DIR$/src/entities/Terning.java" />
+        <option value="$PROJECT_DIR$/src/tests/StigespillTest.java" />
       </list>
     </option>
   </component>
@@ -148,7 +167,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580476329885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580734272244" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../IntelliJ-Workspace/Skoleprosjekter/dat110-project1-startcode" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StigespillTest.sjekkOmNyRuteErFireLengerFrem">
+  <component name="RunManager" selected="JUnit.StigespillTest.terningKastErMellom1og6">
     <configuration name="SpillKontroller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.SpillKontroller" />
       <module name="Stigespill" />
@@ -191,22 +210,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StigespillTest.sjekkOmBrikkeFlyttesSeksRuter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Stigespill" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
-      <option name="METHOD_NAME" value="sjekkOmBrikkeFlyttesSeksRuter" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,13 +246,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StigespillTest.terningKastErMellom1og6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stigespill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.StigespillTest" />
+      <option name="METHOD_NAME" value="terningKastErMellom1og6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StigespillTest.terningKastErMellom1og6" />
         <item itemvalue="JUnit.StigespillTest.sjekkOmNyRuteErFireLengerFrem" />
         <item itemvalue="JUnit.StigespillTest" />
         <item itemvalue="Application.SpillKontroller" />
         <item itemvalue="JUnit.StigespillTest.sjekkOmBrikkeKanFlyttesTilBestemtRute" />
-        <item itemvalue="JUnit.StigespillTest.sjekkOmBrikkeFlyttesSeksRuter" />
       </list>
     </recent_temporary>
   </component>
@@ -317,15 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrettTest - 2020.01.27 at 14h 17m 33s.xml">
-      <configuration name="BrettTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 13s.xml">
-      <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 20s.xml">
-      <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BrettTest_sjekkOmBrikkeInitialiseresTilPosisjon1 - 2020.01.28 at 10h 33m 27s.xml">
       <configuration name="BrettTest.sjekkOmBrikkeInitialiseresTilPosisjon1" configurationId="JUnit" />
     </history-entry>
@@ -347,11 +357,21 @@
     <history-entry file="StigespillTest_sjekkOmNyRuteErFireLengerFrem - 2020.01.31 at 13h 59m 17s.xml">
       <configuration name="StigespillTest.sjekkOmNyRuteErFireLengerFrem" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StigespillTest_terningKastErMellom1og6 - 2020.02.03 at 13h 46m 03s.xml">
+      <configuration name="StigespillTest.terningKastErMellom1og6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StigespillTest_terningKastErMellom1og6 - 2020.02.03 at 13h 49m 12s.xml">
+      <configuration name="StigespillTest.terningKastErMellom1og6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StigespillTest_terningKastErMellom1og6 - 2020.02.03 at 13h 49m 56s.xml">
+      <configuration name="StigespillTest.terningKastErMellom1og6" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19194631" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,7 +381,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1388102" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17847025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17847025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,61 +424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Farge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testpakke/TestRute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testpakke/SlangeRute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Farge.java" />
+    <entry file="file://$PROJECT_DIR$/src/testpakke/TestRute.java" />
+    <entry file="file://$PROJECT_DIR$/src/testpakke/SlangeRute.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/Board.java" />
     <entry file="file://$PROJECT_DIR$/src/entities/Brikke.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -516,7 +485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Brett.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="833">
           <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -524,12 +493,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/StigespillTest.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Terning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -537,10 +511,20 @@
     <entry file="file://$PROJECT_DIR$/src/entities/Spiller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="e#402#403#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/StigespillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

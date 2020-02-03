@@ -3,25 +3,27 @@ package tests;
 import entities.Brett;
 import entities.Brikke;
 import entities.Rute;
+import entities.Terning;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StigespillTest {
     private Brett brett;
     private Map<Integer, Rute> ruteKart;
     Brikke brikke;
+    private Terning terning;
 
     @BeforeEach
     public void setup() {
         brett = new Brett();
-
         ruteKart = brett.getRuteKart();
-
         brikke = new Brikke("Sort", brett);
+        terning = new Terning();
     }
 
     @Test
@@ -71,5 +73,11 @@ public class StigespillTest {
         Rute rute = brett.getRuteKart().get(1); //startrute
         Rute nyRute = brett.finnNyRute(rute, 4);
         assertEquals(5, nyRute.getNummer());
+    }
+
+    @Test
+    public void terningKastErMellom1og6(){
+        int verdi = terning.trill();
+        assertTrue(verdi >= 1 && verdi <= 6);
     }
 }
